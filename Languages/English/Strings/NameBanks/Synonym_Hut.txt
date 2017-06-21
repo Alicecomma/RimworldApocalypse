@@ -1,0 +1,16 @@
+cabana
+cabin
+camp
+chalet
+cot
+cottage
+crib
+den
+hovel
+hut
+lodge
+refuge
+shack
+shanty
+shed
+shelter

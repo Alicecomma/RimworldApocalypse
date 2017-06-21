@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+	<RulePackDef>
+		<defName>NamerHideout_Tower</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[terrainfeature] [tower]</li>
+				<li>name->[towerownerpositive][s] [tower]</li>
+				<li>name->[towerownernegative][s] [tower]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>view</keyword>
+					<path>NameBanks/Synonym_View</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>tower</keyword>
+					<path>NameBanks/Synonym_Tower</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>towerownerpositive</keyword>
+					<path>NameBanks/Owner_Hut_Positive</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>towerownernegative</keyword>
+					<path>NameBanks/Owner_Hut_Negative</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>s</keyword>
+					<path>NameBanks/OwnerPost</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[shipyard] [businessentity]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>shipyard</keyword>
+					<path>NameBanks/Synonym_Shipyard</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>businessentity</keyword>
+					<path>NameBanks/BusinessEntity_American</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</NameMakerDefs>

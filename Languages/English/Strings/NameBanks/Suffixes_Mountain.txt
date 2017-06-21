@@ -1,0 +1,13 @@
+berg
+bluff
+cliff
+peak
+bank
+crag
+dome
+ridge
+crown
+loft
+pitch
+rise
+tip

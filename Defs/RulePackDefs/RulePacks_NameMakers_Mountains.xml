@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+	<RulePackDef>
+		<defName>NamerMountain</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[prename] [partialname]</li>
+				<li>partialname->[title] [name]</li>
+				<li>partialname->[name] [mountain]</li>
+				<li>partialname->[name] [mountains]</li>
+				<li>partialname->[prefix][suffix]</li>
+				<li>prename-></li>
+				<li>prename->[direction]</li>
+				<li>prename->central [direction]</li>
+				<li>prename->[height]</li>
+				<li>prename->[height] [direction]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>title</keyword>
+					<path>NameBanks/Titles_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>prefix</keyword>
+					<path>NameBanks/Prefixes_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>suffix</keyword>
+					<path>NameBanks/Suffixes_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>name</keyword>
+					<path>NameBanks/Names_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>mountain</keyword>
+					<path>NameBanks/Synonym_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>mountains</keyword>
+					<path>NameBanks/Synonym_Mountain_Range</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>direction</keyword>
+					<path>NameBanks/Directions_FromThatDirection</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>height</keyword>
+					<path>NameBanks/Heights</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerCave</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[prename] [partialname] [cave]</li>
+				<li>partialname->[title] [name]</li>
+				<li>partialname->[name] [mountain]</li>
+				<li>partialname->[name] [mountains]</li>
+				<li>partialname->[prefix][suffix]</li>
+				<li>prename-></li>
+				<li>prename->[direction]</li>
+				<li>prename->central [direction]</li>
+				<li>prename->[height]</li>
+				<li>prename->[height] [direction]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>title</keyword>
+					<path>NameBanks/Titles_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>prefix</keyword>
+					<path>NameBanks/Prefixes_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>suffix</keyword>
+					<path>NameBanks/Suffixes_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>name</keyword>
+					<path>NameBanks/Names_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>mountain</keyword>
+					<path>NameBanks/Synonym_Mountain</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>mountains</keyword>
+					<path>NameBanks/Synonym_Mountain_Range</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>direction</keyword>
+					<path>NameBanks/Directions_FromThatDirection</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>height</keyword>
+					<path>NameBanks/Heights</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>cave</keyword>
+					<path>NameBanks/Synonym_Cave</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</NameMakerDefs>

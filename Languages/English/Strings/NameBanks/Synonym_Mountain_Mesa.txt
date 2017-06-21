@@ -1,0 +1,9 @@
+platform
+mesa
+highland
+tableland
+upland
+elevation
+butte
+plateau
+chapada

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+	<RulePackDef>
+		<defName>NamerHideout_Hut</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[terrainfeature][view]</li>
+				<li>name->[terrainfeature] [hut]</li>
+				<li>name->[hutownerpositive][s] [hut]</li>
+				<li>name->[hutownernegative][s] [hut]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>view</keyword>
+					<path>NameBanks/Synonym_View</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>hut</keyword>
+					<path>NameBanks/Synonym_Hut</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>hutownerpositive</keyword>
+					<path>NameBanks/Owner_Hut_Positive</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>hutownernegative</keyword>
+					<path>NameBanks/Owner_Hut_Negative</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>s</keyword>
+					<path>NameBanks/OwnerPost</path>
+				</li>
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+</NameMakerDefs>
